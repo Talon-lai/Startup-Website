@@ -6,6 +6,8 @@
 @import url("components/container.css");
 @import url("components/banner.css");
 @import url("components/button.css");
+@import url("components/card.css");
+
 
 /* General style rules for fonts and colors */
 body {
@@ -16,9 +18,19 @@ body {
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  color: black;
+  color: greyblack;
 }
 a {
   text-decoration: none;
 }
+
+.cards{
+display: flex;
+flex-wrap:wrap;
+
+}
+
+
+
+
 
